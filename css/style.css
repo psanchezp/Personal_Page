@@ -10,16 +10,51 @@ h1{
 	margin: 0;
 }
 
-/* NAV */
+/* Navbar */
 .navbar{
-	margin-bottom: 0px !important;
-	background: rgba(0,0,0,0) !important;
+	float: left;
+	background: transparent;
+	position: fixed;
+	height: 50%;
+	margin-top: 25%;
 }
 
+.nav_ul{
+
+}
+
+.nav_li{
+	margin-top: 15%;
+}
+
+.nav_link{
+	text-decoration: none;
+	display: none;
+}
+
+.nav_link:hover{
+	
+}
+
+/* Classes */
+.section_full{
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+}
+
+.text-dark{
+	color: black;
+}
+
+.text-light{
+	color: white;
+}
+
+/* ID CSS */
 /* Title */
 #title_section{
-	background: url(../img/tiger_lowpoly.png) no-repeat;
-	height: 500px;
+	background: url(../img/me.png) no-repeat;
 	background-size: cover;
 }
 
@@ -28,8 +63,12 @@ h1{
 }
 
 #title_row{
-	background:  rgba(0,0,0,0.5);
 	height: 100%;
+	background:  rgba(0,0,0,0.8);
+}
+
+#title_row:hover{
+	background:  rgba(0,0,0,0.7);
 }
 
 #title_col1{
@@ -40,13 +79,39 @@ h1{
 }
 
 #title_text{
-	color: white;
+	margin-top: -80px;
 	font-size: 72pt;
 	font-weight: 900;
 	font-style: italic;
 }
+
 /* Content */
-	/*Sub COntent */
+#me_section{
+	background: url(../img/tiger_lowpoly.png) no-repeat;
+	background-size: cover;
+}
+
+#me_container{
+	width: 100%;
+}
+
+#me_row{
+	height: 100%;
+	background:  rgba(0,0,0,0.6);
+}
+
+#me_row:hover{
+	background:  rgba(0,0,0,0.5);
+}
+
+#me_col1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+/*Sub COntent */
 	/* ... */
 
 /* Footer */
