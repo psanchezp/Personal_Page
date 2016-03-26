@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* HTML */
+body{
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
+/* NAV */
+.navbar{
+	margin-bottom: 0px !important;
+	background: rgba(0,0,0,0) !important;
+}
+
+/* Title */
+#title_section{
+	background: url(../img/tiger_lowpoly.png) no-repeat;
+	height: 500px;
+	background-size: cover;
+}
+
+#title_container{
+	width: 100%;
+}
+
+#title_row{
+	background:  rgba(0,0,0,0.5);
+	height: 100%;
+}
+
+#title_col1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#title_text{
+	color: white;
+	font-size: 72pt;
+	font-weight: 900;
+	font-style: italic;
+}
+/* Content */
+	/*Sub COntent */
+	/* ... */
+
+/* Footer */
