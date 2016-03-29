@@ -10,6 +10,10 @@ h1{
 	margin: 0;
 }
 
+a{
+	text-decoration: none;
+}
+
 /* Navbar */
 .navbar{
 	float: left;
@@ -19,21 +23,40 @@ h1{
 	margin-top: 25%;
 }
 
-.nav_ul{
-
-}
-
 .nav_li{
 	margin-top: 15%;
+	color: white;
+	font-size: 18pt;
 }
 
-.nav_link{
+.nav_link .text_hide{
 	text-decoration: none;
-	display: none;
+	visibility: hidden;
 }
 
-.nav_link:hover{
-	
+.nav_link:hover .text_hide{
+	visibility: visible;
+	text-decoration: none;
+	color: rgb(255,255,255);
+	color: rgba(255,255,255, 0.4);
+}
+
+.nav_link:active .text_hide{
+	color: rgb(255,255,255);
+	color: rgba(255,255,255, 0.9);
+}
+
+.nav_link:visited .text_hide{
+	text-decoration: none;
+}
+
+#line{
+	width: 1px;
+	height: 35px;
+	background: white;
+	position: absolute;
+	top: 36px;
+	left: 22px;
 }
 
 /* Classes */
