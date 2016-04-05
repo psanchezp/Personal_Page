@@ -77,7 +77,8 @@ a{
 /* ID CSS */
 /* Title */
 #title_section{
-	background: url(../img/me.png) no-repeat;
+	/*background: url(../img/me.png) no-repeat;*/
+	background-color: black;
 	background-size: cover;
 }
 
@@ -110,7 +111,8 @@ a{
 
 /* Content */
 #me_section{
-	background: url(../img/tiger_lowpoly.png) no-repeat;
+	/*background: url(../img/tiger_lowpoly.png) no-repeat;*/
+	background-color: black;
 	background-size: cover;
 }
 
