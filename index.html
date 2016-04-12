@@ -20,16 +20,19 @@
 	</div>
 	<ul class="nav_ul">
 		<li class="nav_li">
-			<button  class="nav_link" onclick="scroll()"><span class="text_hide">Home<span></button>
+			<a  class="nav_link" href="#title_section"><span class="text_hide">Home<span></a>
 		</li>
 		<li class="nav_li">
-			<a class="nav_link" href="#"><span class="text_hide">Me<span></a>
+			<a class="nav_link" href="#me_section"><span class="text_hide">Me<span></a>
 		</li>
 		<li class="nav_li">
 			<a class="nav_link" href="#studies_section"><span class="text_hide">Studies<span></a>
 		</li>
 		<li class="nav_li">
 			<a class="nav_link" href="#proyects_section"><span class="text_hide">Proyects<span></a>
+		</li>
+		<li class="nav_li">
+			<a class="nav_link" href="#contact_section"><span class="text_hide">Contact<span></a>
 		</li>
 	</ul>
 </nav>
@@ -51,8 +54,11 @@
 	<section id="me_section" class="section_full">
 		<container id="me_container">
 			<div id="me_row">
-				<div class="text-center" id="me_col1">
+				<div class="text_center" id="me_col1">
 					<h1 id="me_text" class="text-light">Me</h1>
+				</div>
+				<div class="text_center" id="me_col2">
+					<p id="me_paragraph" class="text-light">Lorem Ipsum</p>
 				</div>
 			</div>
 		</container>
@@ -73,17 +79,22 @@
 			</div>
 		</container>
 	</section>
+
+	<!-- Contact Info -->
+	<section id="contact_section" class="section_full">
+		<container id="contact_container">
+			<div>
+			</div>
+		</container>
+	</section>
+
+	<!-- Footer -->
+	<footer>footer</footer>
 </main>
 
 <!-- Scripts -->
-	<!-- Latest compiled and minified JavaScript
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>  -->
 	<script>
-		$(document).ready(function(){
-			$(button).click(function(){
-				window.scrollTo(0, 500);
-			});
-		});
+		
 	</script>
 </body>
 </html>
